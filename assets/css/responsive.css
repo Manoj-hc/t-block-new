@@ -1,0 +1,938 @@
+/* only small desktops */
+@media (min-width: 1200px) and (max-width: 1450px) {
+ /*===== Hero Section=====*/
+ .bg_cover {
+    background: url(../images/home-background-laptop.png) center no-repeat;
+    background-size: 101% 100%;
+    width: 100%;
+  }
+
+}
+
+/* only small desktops */
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .section-title .title{
+        font-size: 52px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .navbar-brand img {
+        max-width: 170px;
+        margin-left: 0px;
+    }
+     /*===== Hero Section=====*/
+     .bg_cover {
+        background: url(../images/home-background-laptop.png) center no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+      }
+   
+    .header-hero-content .header-title {
+        font-size: 50px;
+    }
+    .header-hero-content .text {
+        font-size: 20px;
+    }
+    /*===== About program Section=====*/
+    .why-info p {
+        font-size: 18px;
+    }
+    .why-info h5 {
+        font-size: 29px;
+    }
+    .about-img img{
+        height: 380px;
+    }
+      /*===== Looking for Section=====*/
+      #looking-for{
+        background: url(../images/How-background.png) center no-repeat;
+          background-size: 100% 130%;   
+      }
+      .looking-info p {
+        font-size: 25px;
+    }
+       /*===== Benefits Section=====*/
+    .benefits-info p {
+        font-size: 25px;
+    }
+    /*===== Roadmap Section=====*/
+    .roadmap-info h3{
+        font-size: 24px;
+    }
+}
+
+/* ipads */
+@media (min-width: 992px) and (max-width: 1024px){
+    .section-title .title{
+        font-size: 50px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .main-btn {
+        font-size: 20px;
+    }
+    .pt-30 {
+        padding-top: 60px;
+    }
+    .pt-50 {
+        padding-top: 40px;
+    }
+    .pb-50 {
+        padding-top: 40px;
+    }
+    .navbar-brand img {
+        max-width: 150px;
+        margin-left: 0px;
+    }
+      /*===== Hero Section=====*/
+      .bg_cover {
+        background: url(../images/home-background-ipad.png) center no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+      }
+      .header-hero-content {
+        right: 0px;
+      }
+    .header-hero-content .header-title {
+        font-size: 50px;
+    }
+     /*===== About program Section=====*/
+     .why-info p {
+        font-size: 16px;
+    }
+    .why-info h5 {
+        font-size: 27px;
+    }
+    .about-img img{
+        height: 350px;
+    }
+     /*===== Looking for Section=====*/
+     #looking-for {
+        background-size: 100% 130%;
+        height: 600px;
+    }
+    .looking-info p {
+        font-size: 24px;
+    }
+       /*===== Benefits Section=====*/
+    .benefits-info p {
+        font-size: 24px;
+    }
+     /*===== Roadmap Section=====*/
+     #roadmap {
+        background-size: 130% 130%;
+        width: 100%;
+    }
+     .roadmap-info h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .roadmap-info p {
+        font-size: 17px;
+    }
+     /*===== Footer=====*/
+     .Contact h3 {
+        font-size: 28px;
+     }
+     .footer-content {
+        padding-top: 90px;
+     }
+     .footer-rights-text .footer-copytext {
+         font-size: 14px;
+     }
+     .link a {
+         font-size: 35px;
+     }
+    .link li span {
+        font-size: 35px;
+    }
+}
+
+/* tablets */
+@media (max-width: 991px) {
+    .navbar-toggler {
+        left: 100%;
+        position: sticky;
+        margin-top: 30px;
+    }
+    .navbar-brand img {
+        max-width: 150px;
+        margin-left: 0px;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .sticky .navbar {
+        padding: 0;
+    }
+    .section-title .title{
+        font-size: 46px;
+    }
+    p{
+        font-size: 17px;
+    }
+    .main-btn {
+        font-size: 16px;
+        padding: 0 10px;
+        margin-left: 0px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .pt-50 {
+        padding-top: 35px;
+    }
+    .pb-50 {
+        padding-bottom: 35px;
+    }
+   
+    .header-hero {
+        height: 700px;
+    }
+    .header-hero-content {
+        padding-top: 200px;
+    }
+  
+  
+    .header-hero-content .text {
+        margin-right: 280px;
+    }
+      /*===== About program Section=====*/
+      .why-info p {
+        font-size: 18px;
+    }
+    .why-info h5 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+     /*===== Footer=====*/
+     .footer-logo img {
+        max-width: 180px;
+    }
+    .Contact h3{
+        font-size: 28px;
+      }
+      .footer-copyright p {
+        font-size: 23px;
+    }
+    .footer-copyright a {
+        font-size: 18px;
+    }
+    .footer-copyright2 {
+        display: block;
+        padding-top: 10px;
+        margin-bottom: 20px;
+      }
+    .footer-copyright2 .dots3{
+        height: 7px;
+        background-color:#4cacea;
+        width: 7px;
+        display: inline-block;
+        border-radius: 50%;
+      }
+      .footer-copyright{
+      display: none;
+      }
+      .footer-rights-text .footer-copytext {
+        font-size: 14px;
+        margin-right: 40px;
+    }
+}
+
+
+
+/* only tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav .nav-item a {
+        font-size: 18px;
+    }
+    .bg_cover {
+        background: url(../images/home-background-ipad.png) center no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+      }
+      .header-hero-content .header-title {
+        font-size: 45px;
+    }
+     /*===== About program Section=====*/
+     .why-info p {
+        font-size: 18px;
+    }
+    .why-info h5 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+     /*===== Looking for Section=====*/
+     .pt-30 {
+        padding-top: 35px;
+    }
+     #looking-for {
+        background-size: 100% 110%;
+        height: 600px;
+    }
+     .looking-info p {
+        font-size: 22px;
+    }
+    .looking-info img{
+        width: 70%;
+    }
+       /*===== Benefits Section=====*/
+    .benefits-info p {
+        font-size: 22px;
+    }
+     /*===== Roadmap Section=====*/
+     #roadmap {
+        background-size: 140% 140%;
+        width: 100%;
+    }
+     .roadmap-info h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .roadmap-info p {
+        font-size: 15px;
+    }
+    #partners .partners-logo {
+        padding: 40px;
+    }
+    #media .media-logo {
+        padding: 40px;
+    }
+    .Contact h3 {
+        font-size: 25px;
+    }
+    .footer-area {
+        background-size: initial;
+    }
+    .footer-content {
+        padding-top: 90px;
+    }
+}
+
+/* small tablets and  mobiles */
+@media (max-width: 767px) {
+
+    .navbar-nav .nav-item a {
+        font-size: 18px;
+    }
+    .navbar-brand img {
+        max-width: 120px;
+        margin-left: 0px;
+    }
+    .section-title .title{
+        font-size: 42px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .main-btn {
+    padding: 0 20px;
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    }
+    .pt-50 {
+        padding-top: 30px;
+    }
+    .pb-50 {
+        padding-bottom: 30px;
+    }
+    .header-anchor {
+        position: relative;
+        bottom: 190px;
+        text-align: center;
+    }
+    .bg_cover {
+        background: url(../images/home-background-tablet.png) center no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+      }
+ 
+      .header-hero {
+        height: 850px;
+    }
+    .header-hero-content .header-title {
+        font-size: 40px;
+    }
+    .header-hero-content .text {
+        margin-right: 100px;
+        margin-top:20px;
+    }
+    /*===== About program Section=====*/
+    .why-info p {
+        font-size: 17px;
+    }
+    .why-info h5 {
+        font-size: 27px;
+    }
+   
+   /*===== Looking for Section=====*/
+   #looking-for {
+    background: url(../images/Roadmap-background.png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+   .looking-info img{
+    width: 50%;
+}
+.looking-info p {
+    font-size: 20px;
+    line-height: 30px;
+}
+   /*===== Benefits Section=====*/
+.benefits-info p {
+    font-size: 20px;
+}
+ /*===== Roadmap Section=====*/
+ #roadmap {
+    background: url(../images/Roadmap-background2.png) center no-repeat;
+    background-size: initial;
+    width: 100%;
+}
+ .roadmap-info h3 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.roadmap-info p {
+    font-size: 13px;
+    line-height: 20px;
+}
+     /*===== Footer=====*/
+.link a {
+    font-size: 23px;
+}
+.link li span {
+   font-size: 23px;
+ }
+ #partners .partners-logo {
+    padding: 40px;
+}
+#media .media-logo {
+    padding: 40px;
+}
+.Contact h3 {
+    font-size: 23px;
+}
+.footer-area {
+    background-size: cover;
+}
+.footer-content {
+    padding-top: 90px;
+}
+.footer-rights-text .footer-copytext {
+    font-size: 12px;
+    margin-right: 50px;
+}
+}
+
+/* mobile or only mobile */
+
+/* Large mobiles */
+@media (max-width: 575px) {
+
+    .navbar-nav .nav-item a {
+        font-size: 16px;
+    }
+    
+
+    .section-title .title{
+        font-size: 40px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .main-btn {
+        padding: 0 15px;
+        font-size: 15px;
+        height: 40px;
+        line-height: 35px;
+    }
+    .header-hero-content ul {
+        margin-top: 10px;
+    }
+    .pt-50 {
+        padding-top: 25px;
+    }
+    .pb-50 {
+        padding-bottom: 25px;
+    }
+    .header-anchor {
+        position: relative;
+        bottom: 140px;
+        text-align: center;
+    }
+    .bg_cover {
+        background: url(../images/home-background-mobile.png) center no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+      }
+    
+    .header-hero {
+        height: 750px;
+    }
+    .header-hero-content {
+        right: 0px;
+    }
+    .header-hero-content .header-title {
+        font-size: 35px;
+    }
+    .header-hero-content .text {
+        margin-top: 10px;
+        margin-right: 180px;
+        padding-left: 0px;
+    }
+      /*===== About program Section=====*/
+      .why-info p {
+        font-size: 15px;
+    }
+    .why-info h5 {
+        font-size: 25px;
+    }
+      /*===== Looking for Section=====*/
+      #looking-for {
+        background: url(../images/How-background-mobile.png) center no-repeat;
+        background-size: 180% 300%;
+        width: 100%;
+        height: auto;
+    }
+   .looking-info p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 28px;
+}
+.looking-info img{
+    width: auto;
+}
+   /*===== Benefits Section=====*/
+.benefits-info p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 28px;
+}
+.benefits-info img{
+    height: 150px;
+}
+ /*===== Roadmap Section=====*/
+ .pt-35 {
+    padding-top: 85px;
+}
+ #roadmap {
+    background: url(../images/Roadmap-background-mobile.png) center no-repeat;
+    background-size: 160% 220%;
+    width: 100%;
+}
+ .roadmap-info{
+    display: none;
+  }
+ .roadmap-info {
+    margin-left: 10px;
+}
+.roadmap-info h3 {
+    font-size: 11px;
+}
+.roadmap-info p {
+    font-size: 10px;
+}
+.roadmap-info2{
+    display: block;
+    margin-left: 50px;
+  }
+  .roadmap-img2 img {
+   width: 65%;
+  }
+  .roadmap-text {
+    position: absolute;
+    left: 210px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.roadmap-text h3 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.roadmap-text p {
+    font-size: 15px;
+}
+.roadmap-text .col-10 {
+    padding: 28px 5px;
+}
+ /*===== Partners Section=====*/
+ #partners .partners-logo {
+    padding: 40px 120px;
+}
+ #partners .partners-logo {
+height: 170px;
+margin-bottom: 40px;
+ }
+ #media .media-logo {
+    padding: 50px 120PX;
+}
+      /*===== Footer=====*/
+      .footer-logo img {
+        max-width: 160px;
+        padding-bottom: 10px;
+    }
+    .Contact h3 {
+        font-size: 25px;
+    }
+    .footer-area {
+        background-size: cover;
+    }
+    .footer-content {
+        padding-top: 120px;
+    }
+    .footer-copyright a {
+        font-size: 16px;
+    }
+    .footer-copyright p {
+        font-size: 20px;
+    }
+    .footer-copyright3 {
+        display: block;
+        padding-top: 10px;
+        margin-bottom: 20px;
+      }
+    .footer-copyright3 .dots4{
+        height: 7px;
+        background-color:#4cacea;
+        width: 7px;
+        display: inline-block;
+        border-radius: 50%;
+      }
+      .footer-copyright2{
+      display: none;
+      }
+      .footer-rights-text .footer-copytext {
+        font-size: 10px;
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 485px) {
+    .roadmap-text {
+        margin-top: 0px;
+      }
+      .roadmap-text h3{
+        font-size: 16px;
+          }
+          .roadmap-text p {
+            font-size: 14px;
+        }
+}
+@media (max-width: 460px){
+.roadmap-text .col-10 {
+    padding: 20px 5px;
+ }
+}
+
+/* medium and small mobiles */
+
+@media (max-width: 426px) {
+    .section-title .title{
+        font-size: 35px;
+    }
+    p{
+        font-size: 12px;
+    }
+  
+    .pt-50 {
+        padding-top: 20px;
+    }
+    .pb-50 {
+        padding-bottom: 20px;
+    }
+    .header-anchor {
+        position: relative;
+        bottom: 90px;
+        text-align: center;
+    }
+    .bg_cover {
+        background: url(../images/home-background-mobile2.png) center no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+      }
+     
+      .header-hero-content {
+        padding-top: 150px;
+    }
+    .header-hero-content .text {
+        margin-right: 90px;
+    }
+    .header-hero-content .header-title {
+        font-size: 30px;
+    }
+    .header-hero {
+        height: 650px;
+    }
+    .header-hero-content ul {
+        margin-top: 10px;
+    }
+    .header-hero-content .main-btn {
+        margin-top: 10px;
+    }
+     /*===== About program Section=====*/
+     .why-info p {
+        font-size: 14px;
+    }
+    .why-info h5 {
+        font-size: 23px;
+    }
+          /*===== Looking for Section=====*/
+   .looking-info p {
+    font-size: 19px;
+    line-height: 28px;
+}
+
+   /*===== Benefits Section=====*/
+.benefits-info p {
+    font-size: 19px;
+    line-height: 28px;
+}
+
+ /*===== Roadmap Section=====*/
+ #roadmap {
+    background-size: 200% 220%;
+    width: 100%;
+}
+.roadmap-img2 img {
+    width: 60%;
+   }
+.roadmap-text h3 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.roadmap-text p {
+    font-size: 13px;
+}
+ .roadmap-info {
+    margin-left: 10px;
+}
+.roadmap-text .col-10 {
+    padding: 25px 5px;
+ }
+.roadmap-info h3 {
+    font-size: 8px;
+}
+.roadmap-info p {
+    font-size: 8px;
+    line-height: 15px;
+}
+      /*===== Footer=====*/
+      .Contact h3 {
+        font-size: 20px;
+    }
+    .footer-copyright a {
+        font-size: 14px;
+    }
+    .footer-copyright p {
+        font-size: 16px;
+    }
+    #partners .partners-logo {
+        padding: 40px 90px;
+    }
+         #media .media-logo {
+            padding: 50px 90PX;
+        }
+}
+
+@media (max-width: 415px) {
+    .header-hero-content .text {
+        margin-right: 70px;
+    }
+    .roadmap-text p{
+        font-size: 13px;
+    }
+    .roadmap-text h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+          .roadmap-text .col-10{
+            padding: 18px;
+        }
+        .roadmap-text {
+            margin-top: 10px;
+          }
+}
+
+@media (max-width: 376px) {
+
+    .section-title .title{
+        font-size: 32px;
+    }
+    p{
+        font-size: 11px;
+    }
+  
+    .pt-50 {
+        padding-top: 15px;
+    }
+    .pb-50 {
+        padding-bottom: 15px;
+    }
+    .header-hero-content .main-btn {
+        margin-top: 10px;
+    }
+   
+    .header-hero-content {
+        padding-top: 140px;
+    }
+    .main-btn {
+        padding: 0 10px;
+        font-size: 13px;
+        height: 35px;
+        line-height: 30px;
+    }
+    .navbar-nav .nav-item a {
+        font-size: 14px;
+    }
+    .navbar-brand img {
+        max-width: 120px;
+    }
+    
+    .bg_cover {
+        background: url(../images/home-background-mobile3.png) center no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+      }
+      
+    .header-hero-content .header-title {
+        font-size: 28px;
+    }
+    
+    .header-hero-content .text {
+        margin-right: 50px;
+    }
+      /*===== About program Section=====*/
+      .why-info p {
+        font-size: 13px;
+    }
+    .why-info h5 {
+        font-size: 22px;
+    }
+    
+          /*===== Looking for Section=====*/
+   .looking-info p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.looking-info img{
+    height: 130px;
+}
+   /*===== Benefits Section=====*/
+.benefits-info p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.benefits-info img{
+    height: 130px;
+}
+
+ /*===== Roadmap Section=====*/
+ .roadmap-text {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.roadmap-text .col-10 {
+    padding: 20px;
+}
+.roadmap-text h3 {
+    font-size: 13px;
+}
+.roadmap-text p {
+    font-size: 12px;
+    line-height: 20px;
+}
+ /*===== Partners Section=====*/
+ #partners .partners-logo {
+    padding: 40px 70px;
+}
+ #media .media-logo {
+    padding: 50px 70PX;
+}
+      /*===== Footer=====*/
+      .footer-rights-text .footer-copytext {
+        font-size: 9px;
+        margin-right: 20px;
+    }
+.link a {
+    font-size: 13px;
+}
+.link li span {
+   font-size: 13px;
+  }
+}
+
+@media (max-width: 360px){
+ /*===== Roadmap Section=====*/
+ .roadmap-text {
+    position: absolute;
+    left: 160px;
+ }
+ .roadmap-info2 {
+    display: block;
+    margin-left: 20px;
+}
+.roadmap-text .col-10 {
+    padding: 23px;
+}
+ .roadmap-text h3 {
+    font-size: 11px;
+}
+ .roadmap-text p {
+    font-size: 10px;
+}
+}
+@media (max-width: 322px) {
+
+    p{
+        font-size: 11px;
+    }
+    .section-title .title{
+        font-size: 28px;
+    }
+    .header-hero-content .header-title {
+        font-size: 25px;
+    }
+    .header-hero-content .text {
+        margin-right: 20px;
+    }
+     
+      .why-info p {
+        font-size: 12px;
+    }
+    .why-info h5 {
+        font-size: 21px;
+    }
+    .roadmap-text h3 {
+        font-size: 11px;
+    }
+    .roadmap-text p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .roadmap-text {
+        margin-top: 20px;
+    }   
+    #partners .partners-logo {
+        padding: 40px 50px;
+        margin-bottom: 0px;
+    } 
+    #media .media-logo {
+        padding: 50px;
+    }
+    .link a {
+        font-size: 12px;
+    }
+    .link li span {
+       font-size: 12px;
+      }
+      .footer-copyright3{
+          display: none;
+      }
+
+}
